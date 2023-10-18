@@ -1,0 +1,141 @@
+/**
+ * Panda Syntax Theme for Highlight.js
+ * Based on: https://github.com/tinkertrain/panda-syntax-vscode
+ * Author: Annmarie Switzer <https://github.com/annmarie-switzer>
+ */
+
+pre {
+  margin: 10px 0;
+
+  border: 1px solid hsl(0, 0%, 50%);
+  border-radius: 5px;
+  padding: 15px;
+  background: hsl(223, 16%, 7%);
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: hsl(0, 0%, 15%);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 60%);
+    border-radius: 10px;
+  }
+}
+
+.scroll_style {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: hsl(0, 0%, 15%);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 60%);
+    border-radius: 10px;
+  }
+}
+
+.hljs {
+  color: #e0e2e4;
+  background: transparent;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+  padding-right: 10px;
+}
+
+/* .hljs {
+  color: #e6e6e6;
+  background: #2a2c2d;
+} */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #bbbbbb;
+  font-style: italic;
+}
+
+.hljs-params {
+  color: #bbbbbb;
+}
+
+.hljs-punctuation,
+.hljs-attr {
+  color: #e6e6e6;
+}
+
+.hljs-selector-tag,
+.hljs-name,
+.hljs-meta {
+  color: #ff4b82;
+}
+
+.hljs-operator,
+.hljs-char.escape_ {
+  color: #b084eb;
+}
+
+.hljs-keyword,
+.hljs-deletion {
+  color: #ff75b5;
+}
+
+.hljs-regexp,
+.hljs-selector-pseudo,
+.hljs-selector-attr,
+.hljs-variable.language_ {
+  color: #ff9ac1;
+}
+
+.hljs-subst,
+.hljs-property,
+.hljs-code,
+.hljs-formula,
+.hljs-section,
+.hljs-title.function_ {
+  color: #45a9f9;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-selector-class,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-meta .hljs-string {
+  color: #19f9d8;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-number,
+.hljs-literal,
+.hljs-type,
+.hljs-link,
+.hljs-built_in,
+.hljs-title,
+.hljs-selector-id,
+.hljs-tag,
+.hljs-doctag,
+.hljs-attribute,
+.hljs-template-tag,
+.hljs-meta .hljs-keyword,
+.hljs-punctuation {
+  color: #ffb86c;
+}

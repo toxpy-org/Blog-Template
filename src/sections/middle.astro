@@ -1,0 +1,38 @@
+---
+import ProblemEngine from "../included/components/math/problems_engine/ProblemEngine.vue";
+import DesmosTest from './desmosTest.vue';
+---
+
+<section>
+  <!-- <pre><code class="javascript">function HelloWorld() &#123;
+  let map = new Map("USA");
+  body.append(map.dom);
+&#125;</code></pre> -->
+
+  <h2>Problems</h2>
+
+  <div class="problemEngine">
+    <ProblemEngine client:only />
+  </div>
+  <h2>Problems</h2>
+
+  <div>
+    <DesmosTest client:only />
+  </div>
+</section>
+
+<style lang="scss">
+  $color-accent: 223;
+  $color-sat: 16%;
+  $blog-width: 600px;
+
+  @function primary_color($b) {
+    @return hsl($color-accent, $color-sat, $b);
+  }
+
+  .problemEngine {
+    height: 300px;
+    border-radius: 5px;
+    background: primary_color(7%);
+  }
+</style>

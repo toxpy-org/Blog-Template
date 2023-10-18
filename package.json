@@ -1,0 +1,39 @@
+{
+  "name": "tsk-11",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.3",
+    "@astrojs/svelte": "^4.0.3",
+    "@astrojs/vue": "^3.0.1",
+    "@nanostores/vue": "^0.10.0",
+    "@types/d3": "^7.4.1",
+    "@types/katex": "^0.16.3",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@types/topojson-client": "^3.1.2",
+    "astro": "^3.2.3",
+    "d3": "^7.8.5",
+    "desmos": "^1.5.4",
+    "katex": "^0.16.9",
+    "mathlive": "^0.95.5",
+    "nanostores": "^0.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.0",
+    "svelte": "^4.2.1",
+    "topojson-client": "^3.1.0",
+    "us-state-converter": "^1.0.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/desmos": "^1.6.2"
+  }
+}

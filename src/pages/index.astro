@@ -1,0 +1,82 @@
+---
+import Layout from "../layouts/StandardLayout.astro";
+import Introduction from "../sections/introduction.astro";
+import Middle from "../sections/middle.astro";
+import Ending from "../sections/ending.astro";
+import Conclusion from "../sections/conclusion.astro";
+---
+
+<Layout title="Introduction to calculus - Limits and derivatives">
+  <div class="blog scroll_style">
+    <Introduction />
+    <Middle />
+    <Ending />
+    <Conclusion />
+  </div>
+</Layout>
+
+<style lang="scss">
+  .blog {
+    width: 800px;
+    padding: 25px 100px;
+    // height: 100vh;
+
+    // margin: 50px 0;
+    padding-bottom: 50px;
+    // border-radius: 15px;
+    outline: 1px solid white;
+    // overflow-y: scroll;
+  }
+
+  :global(.header) {
+    display: flex;
+
+    align-items: center;
+
+    :global(span) {
+      width: fit-content;
+      flex-grow: 1;
+      text-align: right;
+    }
+  }
+
+  :global(p, .p) {
+    color: hsl(225, 3%, 76%);
+    line-height: 26px;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  :global(span) {
+    color: hsl(225, 3%, 76%);
+  }
+
+  :global(h1) {
+    font-size: 28px;
+    color: hsl(225, 3%, 86%);
+    margin: 55px 0px 25px 0;
+    font-weight: 700;
+
+    &:first-child {
+      margin: 25px 0px;
+    }
+  }
+
+  :global(h3, h2) {
+    color: hsl(225, 3%, 86%);
+    margin: 35px 0px 15px 0;
+    font-weight: 700;
+  }
+
+  :global(h2) {
+    font-size: 26;
+  }
+
+  :global(h3) {
+    font-size: 24;
+  }
+
+  :global(.virtual-keyboard-toggle) {
+    display: none;
+  }
+</style>

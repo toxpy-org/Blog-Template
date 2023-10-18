@@ -1,0 +1,54 @@
+---
+import Katex from "../included/components/math/equations/Katex.svelte";
+import KatexSmall from "../included/components/math/equations/KatexSmall.svelte";
+---
+
+<section>
+  <div class="header">
+    <h1>introduction to derivatives</h1>
+    <span class="p"> Oct 13. 2023</span>
+  </div>
+
+  <p>
+    Donec dignissim, diam a gravida sollicitudin, neque nisl eleifend libero, in
+    commodo sapien nibh sit amet dolor. Aenean eleifend nisi sit amet lacinia
+    dignissim. Nullam purus dui, porta id luctus sed, tempus eu dolor. Praesent
+    lacinia turpis eget aliquet tempor. Cras nec arcu in purus volutpat finibus.
+    Sed tristique, dolor eget lobortis dignissim, mauris nibh dignissim est, et
+     consectetur sapien massa sed purus. Fusce accumsan tempor eros, nec viverra
+    ante gravida et. Cras congue lobortis libero, nec porttitor mauris
+    condimentum nec. Sed vitae lacus eu odio pharetra mollis eleifend nec
+    mauris. Nam in fringilla eros. Mauris in risus in lacus maximus finibus.
+    Donec in ultricies purus. Maecenas tincidunt tempus tempus. Nullam sit amet
+     blandit metus, in faucibus ligula. Vivamus vestibulum et lacus eu dictum.
+  </p>
+  <!-- <p>
+    Donec dignissim, diam a gravida sollicitudin, neque nisl eleifend libero, in
+    commodo sapien nibh sit amet dolor. Aenean eleifend nisi sit amet lacinia
+    dignissim. Nullam purus dui, porta id luctus sed, tempus eu dolor. Praesent
+    lacinia turpis eget aliquet tempor. Cras nec arcu in purus volutpat finibus.
+    Sed tristique, dolor eget lobortis dignissim, mauris nibh dignissim est, et
+    <KatexSmall client:only equation="\\lim_{x \\to 1}x = \\frac 12" />
+     consectetur sapien massa sed purus. Fusce accumsan tempor eros, nec viverra
+    ante gravida et. Cras congue lobortis libero, nec porttitor mauris
+    condimentum nec. Sed vitae lacus eu odio pharetra mollis eleifend nec
+    mauris. Nam in fringilla eros. Mauris in risus in lacus maximus finibus.
+    Donec in ultricies purus. Maecenas tincidunt tempus tempus. Nullam sit amet
+    <KatexSmall client:only equation="1 = x" />
+     blandit metus, in faucibus ligula. Vivamus vestibulum et lacus eu dictum.
+  </p> -->
+
+  <!-- <Katex
+    client:only
+    equation={`
+      \\begin{gather}
+      { f'(x)=\\lim_{x\\to0} {\\frac{f(x+h)-f(x)}{h}} }
+      \\end{gather}`}
+  /> -->
+</section>
+
+<style>
+  math-field {
+    width: 150px;
+  }
+</style>
