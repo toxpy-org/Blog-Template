@@ -1,0 +1,13 @@
+name: Toxpy's Blog Template
+jobs:
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps: 
+      - name: Toxpy's Blog Template
+      id: deployment 
+      use: actions/deploy-pages@v1
