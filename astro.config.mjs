@@ -8,5 +8,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [svelte(), vue(), react()],
   site: "https://toxpy_s_org.github.io",
-  base: "/blog-template",
+  base: "/Blog-Template",
 });
