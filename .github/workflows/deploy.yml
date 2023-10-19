@@ -25,4 +25,4 @@ jobs:
     steps: 
       - name: Toxpy's Blog Template
         id: deployment 
-        use: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v1
