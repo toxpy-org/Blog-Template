@@ -20,7 +20,7 @@ onMounted(() => {
   let xdata = [0];
   let ydata = [f(xdata[0] as number)];
 
-  let h = 20;
+  let h = 0.5;
 
   setInterval(() => {
     for (let i = 0; i < 2; i++) {
